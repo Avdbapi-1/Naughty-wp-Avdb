@@ -128,7 +128,7 @@ class NaughtyCrawler {
 
                     <div class="card">
                         <h3>Crawl Data</h3>
-                        <p>Crawl all the latest posts from the API (starting from page 1).</p>
+                        <p>Only collect latest movies page 1</p>
                         <button id="crawl-all-button" class="button button-primary">Crawl New Movies</button>
                     </div>
 
