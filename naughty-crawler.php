@@ -3,7 +3,7 @@
 Plugin Name: Naughty Crawler
 Description: API data crawling plugin for NaughtyWP theme
 Version: 1.0
-Author: Dev Avdbapi.com
+Author: Avdbapi.com
 */
 
 if (!defined('ABSPATH')) {
