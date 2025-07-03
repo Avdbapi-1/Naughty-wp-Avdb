@@ -686,9 +686,9 @@ class NaughtyCrawler {
         update_post_meta($post_id, 'thumb_url', $item['thumb_url']);
         
         $embed_link = $item['episodes']['server_data']['Full']['link_embed'];
-        $iframe_html = '<iframe src="' . esc_attr($embed_link) . '" title="' . esc_attr($movie_code) . '"></iframe>';
+        $iframe_html = '<iframe src="' . esc_attr($embed_link) . '" title="' . esc_attr($movie_code) . '" allowfullscreen></iframe>';
         update_post_meta($post_id, 'embed', $iframe_html);
-        
+
         update_post_meta($post_id, 'quality', $item['quality']);
         update_post_meta($post_id, 'year', $item['year']);
         update_post_meta($post_id, 'country', implode(', ', $item['country']));
